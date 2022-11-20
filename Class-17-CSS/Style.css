@@ -1,0 +1,60 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+.header-area{
+   background: black;
+   margin-bottom: 20px;
+}
+.logo-area{
+   width: 100px;
+   margin: auto;
+}
+.logo-area img{
+   width: 100%;
+}
+.main-area .content-area{
+   width: 55%;
+   float: left;
+   margin-right: 5%;
+}
+ aside .sidebar{
+   width: 18%;
+   overflow: hidden;
+   float: left;
+   margin-left: 2%;
+}
+aside .sidebar2{
+   width: 18%;
+   overflow: hidden;
+   float: left;
+   margin-left: 2%;
+   text-align: justify;
+}
+.sidebar h2,article h2,.sidebar2 h2{
+   color: green;
+   font-family: arial;
+   margin-bottom: 10px;
+}
+.main-area{
+   width: 90%;
+   margin: auto;
+}
+.sidebar p,article p,.sidebar2 p{
+   font-size: 19px;
+   font-family: arial;
+   float: left;
+   margin-top: 20px;
+}
+.main-area::after{
+   content: '';
+   display: block;
+   clear: both;
+}
+footer{
+   background-color: grey;
+   color: white;
+   font-size: 30px;
+   text-align: center;
+   padding: 10px;
+}

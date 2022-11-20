@@ -1,0 +1,164 @@
+body{
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+.welcome-area {
+  background-image: url(img/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #ddd;
+  color: #fff;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.welcome-area::after{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  content: '';
+  background-color: #000;
+  z-index: -1;
+  opacity: .8;
+}
+
+.logo img{
+  max-width: 50px;
+  padding-right: 5px;
+}
+
+.logo a{
+  color: #cc4240;
+}
+
+.logo h1{
+  font-size: 25px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.main-menu ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  
+}
+
+.main-menu li{
+  display: inline-block;
+  position: relative;
+}
+
+.main-menu li a{
+  color: #cc4240;
+  display: block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  
+}
+
+.main-menu li.bordered a{
+  border: 1px solid #cc4240;
+}
+
+.logo{
+  margin-top: 4px;
+}
+
+.header-area{
+  padding: 15px 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9;
+}
+
+.copy-right-area{
+  background-color: #3f3e3c;
+  font-size: 85%;
+  padding: 10px 0;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  z-index: 9;
+}
+
+.copy-right-area,.copy-right-area a{
+  color: #999;
+}
+
+.copy-right-area ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.copy-right-area li{
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.hero-area-table{
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.hero-area-tablecell{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.hero-text{
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.hero-text h1{
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.email-subscribe-form{
+  margin-top: 50px;
+  font-size: 14px;
+  max-width: 500px;
+}
+
+.email-subscribe-form input[type="email"]{
+  background-color: #fff;
+  border: none;
+  padding: 10px;
+  font-weight: 400;
+  border-radius: 5px;
+  width: 58%;
+  margin-right: 2%;
+}
+
+button[type="submit"]{
+  background-color: #cc4240;
+  color: #fff;
+  border: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.social-icons a{
+  /* color: #333; */
+  font-size: 20px;
+  margin-top: 10px;
+  display: inline-block;
+  padding-right: 10px;
+}
