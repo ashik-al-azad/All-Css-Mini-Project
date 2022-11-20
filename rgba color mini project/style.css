@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    scroll-behavior: smooth;
+    width: 100%;
+    height: 100%;
+}
+body::after {
+    background-image: url('img/bg-img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    content: '';
+    filter: blur(5px);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* .blur{
+    filter: blur(5px);
+    z-index: -1;
+} */
+
+.container {
+    background: #fe9ff3;
+    background: -moz-linear-gradient(-45deg, #fe9ff3 0%, #ffdfee 41%, #ddffff 99%);
+    
+    background: -webkit-linear-gradient(-45deg, #fe9ff3 0%, #ffdfee 41%, #ddffff 99%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #fe9ff3 0%, #ffdfee 41%, #ddffff 99%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe9ff3', endColorstr='#ddffff', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+
+    width: 90% !important;
+    margin: 50px auto;
+    padding: 50px;
+    z-index: 99;
+}
+
+
+.header_area {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_area {
+    display: flex;
+    text-align: right;
+}
+
+.logo_area {
+    margin-right: 50px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    margin: 0 5px;
+}
+
+.nav_menu a {
+    padding: 10px 30px;
+    display: block;
+    background-color: #f00;
+}
+
+.right_area {
+    display: flex;
+}
+
+.login_area {
+    margin-right: 50px;
+}
+
+.signup_area a {
+    background-color: #acac7f;
+    padding: 10px 20px;
+    display: inline;
+    line-height: 20px;
+    border-radius: 5px;
+}
+
+.main_area {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_left_area {
+    padding: 0 50px;
+    width: 60%;
+}
+
+.main_left_area h1 {
+    font-size: 50px;
+    color: #714A7A;
+}
+
+.main_left_area p {
+    color: #714A7A;
+    font-size: 20px;
+    margin: 50px 0;
+}
+
+.main_right_area {
+    width: 40%;
+}
+
+.main_right_area img {
+    width: 500px;
+}
+
+.btn button {
+    padding: 10px 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F00;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.btn button:first-child {
+    background-color: #4670CA;
+    margin-right: 50px;
+}
+
+.social_icon {
+    padding-left: 50px;
+}
+
+.social_icon i.fab {
+    margin-right: 10px;
+    font-size: 25px;
+    color: #fcfcfc;
+}

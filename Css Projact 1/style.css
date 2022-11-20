@@ -1,0 +1,89 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+body {
+   background-color: #eee;
+   font-family: 'Roboto', sans-serif;
+}
+.container{
+   max-width: 1000px;
+   background-color: #e4f9e5;
+   margin: 0 auto;
+   padding: 10px;background-image: linear-gradient(to right,red,green,yellow);
+}
+.image{
+   width: 100px;
+   height: 100px;
+   border-radius: 50px;
+   float: left;
+   padding: 30px;
+}
+.header-bio{
+   float: left;
+   padding: 40px;
+}
+.nav-area {
+   float: right;
+   padding: 40px;
+}
+.nav-area a{
+   text-decoration: none;
+   color: teal;
+   font-weight: bold;
+   transition: 0.5s;
+}
+.nav-area a:hover{
+   font-size: 20px;
+   color: blue;
+}
+.clear{
+   clear: both;
+}
+.one{
+   border: 3px solid black;
+}
+section{
+   text-align: justify;
+}
+.left{
+   float: left;
+   width: 30%;
+}
+.right{
+   float: left;
+   width: 70%;
+}
+.right1{
+   float: left;
+   width: 30%;
+}
+.right2{
+   float: right;
+   width: 30%;
+}
+ul li{
+   list-style-position: inside;
+}
+hr{
+   border: 1px solid black;
+   border-bottom: none;
+   width: 100%;
+   margin: 10px auto;
+}
+footer{
+   background-color: black;
+   color: white;
+   text-align: center;padding: 10px;
+   margin: 10px;
+}
+footer a{
+   padding: 10px;
+   margin: 10px;
+   text-decoration: none;
+   color: white;
+}
+footer p{
+   margin: 10px;
+   padding: 10px;
+}

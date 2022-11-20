@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:ital,opsz,wght@0,8..30,300;0,8..30,400;0,8..30,600;0,8..30,700;1,8..30,600;1,8..30,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Piazzolla', serif;
+}
+
+.section_title {
+    text-align: center;
+    font-size: 30px;
+}
+
+.section_title h1 {
+    border-bottom: 10px solid #f12;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+        0px -4px 10px rgba(255, 255, 255, 0.3);
+}
+
+span {
+    font-size: 50px;
+    color: #f12;
+    font-style: italic;
+}
+
+span.f_n {
+    font-style: normal;
+}
+
+/* First Section Start */
+
+.first_section {
+    background-color: antiquewhite;
+    padding: 50px;
+}
+
+.firstHalf,
+.secondHalf,
+.threadHalf {
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.html_markup,
+.c_programming,
+.java_programming,
+.img_text {
+    width: 32%;
+    padding: 10px 20px;
+    box-shadow: 5px 5px 10px #999;
+    border-radius: 5px;
+}
+
+.firstHalf h1 {
+    text-align: center;
+    font-size: 35px;
+    text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+        0px -4px 10px rgba(255, 255, 255, 0.3);
+}
+
+.firstHalf p {
+    text-align: justify;
+    font-size: 18px;
+}
+
+/* First Section End */
+
+/* Second Section Start */
+
+.second_section {
+    background-color: #f458;
+    padding: 50px;
+}
+
+.second_section span {
+    font-size: 40px;
+}
+
+.second_section span.f_n {
+    font-size: 50px;
+}
+
+img {
+    width: 100%;
+}
+
+/* Second Section End */
+
+/* Thread Section Start */
+
+.thread_section {
+    background-color: #999;
+    padding: 50px;
+}
+
+.threadHalf {
+    width: 100%;
+}
+
+.my-doc {
+    border-bottom: 2px dotted;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+.my-doc:last-child {
+    border-bottom: none;
+}
+
+.contact_details {
+    width: 49%;
+}
+
+.contact_details h3 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.contact_details p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.contact_form {
+    width: 49%;
+}
+
+input,
+textarea {
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 18px;
+    border: none;
+    background-color: #999;
+    box-shadow: 5px 5px 12px 2px black;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: #000;
+}
+
+input {
+    border-radius: 50px;
+    height: 50px;
+}
+
+textarea {
+    border-radius: 15px;
+    height: 150px;
+}
+
+.col-2 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.col {
+    width: 100%;
+    margin: 0 5px;
+}
+
+.mx {
+    margin: 0 5px;
+}
+
+/* Thread Section End */

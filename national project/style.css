@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:ital,opsz,wght@0,8..30,300;0,8..30,400;0,8..30,600;0,8..30,700;1,8..30,600;1,8..30,700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Piazzolla', serif;
+	background-color: #F8F9FA;
+	text-align: center;
+}
+
+.header_area,.flag_emblem,.national_area,.official_seal,.global_world{
+	border: 1px solid;
+	margin: 5px;
+	padding: 5px;
+}
+
+h2{
+	color: #f12;
+}
+
+h4,p{
+	color: #0644AB;
+}
+
+/* Flag And Emblem Area Start */
+
+.flag_emblem{
+	padding: 50px;
+}
+
+.flag_emblem h4{
+	margin-top: 25px;
+}
+
+.col-2{
+	display: inline-block;
+}
+
+.flag_emblem .flag,.national_video_audio .video{
+	width: 59%;
+}
+.flag_emblem .flag_g_c{
+	width: 800px;
+	height: 400px;
+	background-color: green;
+	position: relative;
+}
+.flag_emblem .flag_r_b{
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+}
+
+.flag_emblem .emblem_img,.national_video_audio .audio{
+	width: 39%;
+}
+
+.flag_emblem .emblem_img img{
+	height: 400px;
+}
+
+/* Flag And Emblem Area End */
+
+/* National Doc Area Start */
+
+.national_area{
+	padding: 50px;
+}
+
+.national_doc{
+	margin-bottom: 25px;
+}
+
+.national_area .video video{
+	width: 800px;
+	height: 400px;
+}
+
+.national_area .audio audio {
+    margin-bottom: 200px;
+}
+
+/* National Doc Area End */
+
+/* Official Seal Area Start */
+
+.official_seal{
+	padding: 50px;
+}
+
+.official_text{
+	margin-bottom: 25px;
+}
+
+.official_img img{
+	height: 400px;
+}
+
+
+/* Official Seal Area End */
+
+/* Bangladesh Orthographic Projection Area Start */
+
+.global_world{
+	padding: 50px;
+}
+
+.global_text{
+	margin-bottom: 25px;
+}
+
+.global_img img{
+	height: 400px;
+}
+
+/* Bangladesh Orthographic Projection Area End */
